@@ -1,0 +1,92 @@
+.contact {
+    background-color: var(--background-contacts-header);
+    display: flex;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.contact-title {
+    max-width: 800px;
+    padding-right: 60px;
+}
+
+.contact-main-section-v2 {
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.contact-section__title {
+    color: var(--main-title-color);
+    font-family: var(--font-header-title);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contacts-section__subheading {
+    font-size: 14px;
+    color: var(--section__subheading-color);
+    font-weight: 700;
+    font-family: var(--font-family);
+    padding-left: 10px;
+}
+
+.contact-small-text {
+    padding-top: 50px;
+    color: var(--color-header-location);
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.contact-links-title {
+    color: var(--main-title-color);
+    font-family: var(--font-header-title);
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.contact-phone a,
+.contact-mail a,
+.contact-adress a {
+    color: var(--main-title-color);
+    text-decoration: none;
+    padding-top: 15px;
+    font-family: var(--font-family);
+}
+
+.contact-adress p {
+    padding-top: 15px;
+    color: var(--color-header-location);
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.contact-hours p {
+    padding-top: 15px;
+    color: var(--color-header-location);
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.sn {
+    display: flex;
+    align-items: baseline;
+}
+
+.sn a {
+    margin: 10px;
+    border: 2px solid var(--color-header-background);
+    padding: 6px;
+}
+
+@media(min-width:880px) {
+    .contact-main-section-v2 {
+        display: flex;
+        border-bottom: 1px solid var(--footer-contact);
+        padding-bottom: 20px;
+    }
+}

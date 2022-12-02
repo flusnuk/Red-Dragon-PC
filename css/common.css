@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap'); /* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap'); /* Source Sans Pro (400,600) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --font-family: 'Source Sans Pro', sans-serif;
+    --font-header-title: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    --main-title-color: #737373;
+    --section__subheading-color: rgb(209, 185, 151);
+    --icons-color: #d1b997;
+    --color-header-location: #a9a9a9;
+    --color-header-background: #202020;
+    --footer-contact: #353232c7;
+    --shadow-color: rgba(0, 0, 0, 0.486);
+    --background--pricing: rgb(80, 78, 78);
+    --background-contacts-header: #191919;
+    --background-contact-section: #141414;
+    --background-header-nav: rgba(0, 0, 0, 0.63);
+    --main-background-color: #000;
+}
+.section__subheading {
+    font-size: 14px;
+    color: var(--section__subheading-color);
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+.section__title {
+    color: var(--main-title-color);
+    font-family: var(--font-header-title);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.section__description {
+    color: var(--main-title-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.section__color-text {
+    color: var(--icons-color);
+    font-family: var(--font-header-title);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.about_us-text,
+.welcome,
+.neighbours,
+.why,
+.section-pricing,
+.work-meet-enjoy,
+.awards,
+.contact__slider,
+.contact-main-section-v2 {
+    padding-left: 15px;
+}
